@@ -1,4 +1,5 @@
 // TODO: Fix the compiler error on this function.
+// DONE
 fn picky_eater(food: &str) -> &str {
     if food == "strawberry" {
         "Yummy!"

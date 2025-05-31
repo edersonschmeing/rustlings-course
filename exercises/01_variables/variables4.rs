@@ -1,4 +1,5 @@
 // TODO: Fix the compiler error.
+// DONE
 
 fn main() {
     let mut x = 3;

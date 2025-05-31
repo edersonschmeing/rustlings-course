@@ -5,6 +5,8 @@
 // The exercise file will be reloaded when you change one of the lines below!
 // Try adding a new `println!` and check the updated output in the terminal.
 
+//DONE
+
 fn main() {
     println!(r#"       Welcome to...                      "#);
     println!(r#"                 _   _ _                  "#);
@@ -21,4 +23,5 @@ fn main() {
     println!("The file of this exercise is `exercises/00_intro/intro1.rs`. Have a look!");
     println!("The current exercise path will be always shown under the progress bar.");
     println!("You can click on the path to open the exercise file in your editor.");
+    println!("add line");
 }

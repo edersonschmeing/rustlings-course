@@ -8,7 +8,7 @@ fn vec_loop(input: &[i32]) -> Vec<i32> {
         output.push(element * 2);  
     }
 
-    output
+    output 
 }
 
 fn vec_map_example(input: &[i32]) -> Vec<i32> {

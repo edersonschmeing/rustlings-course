@@ -7,7 +7,7 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     // let v = ???;
     let v : Vec<i32>= vec![10, 20, 30, 40];
 
-    (a, v)
+    (a, v) 
 }
 
 fn main() {

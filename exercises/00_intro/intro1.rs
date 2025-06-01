@@ -1,3 +1,6 @@
+//editor.inlayHints.enabled
+//inline.suggest
+
 // TODO: We sometimes encourage you to keep trying things on a given exercise
 // even after you already figured it out. If you got everything working and feel
 // ready for the next exercise, enter `n` in the terminal.

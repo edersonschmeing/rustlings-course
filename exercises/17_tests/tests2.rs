@@ -6,6 +6,8 @@ fn power_of_2(n: u8) -> u64 {
 
 fn main() {
     // You can optionally experiment here.
+    let result = power_of_2(3);
+    println!("{}", result);
 }
 
 #[cfg(test)]
@@ -15,9 +17,10 @@ mod tests {
     #[test]
     fn you_can_assert_eq() {
         // TODO: Test the function `power_of_2` with some values.
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
+        assert_eq!(power_of_2(2), 4);
+        assert_eq!(power_of_2(3), 8);
+        assert_eq!(power_of_2(5), 32);
+        assert_eq!(power_of_2(0), 1);
+        assert_eq!(power_of_2(1), 2);
     }
 }

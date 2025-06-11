@@ -4,7 +4,7 @@
 // number of exercises with a given progress. Recreate this counting
 // functionality using iterators. Try to not use imperative loops (for/while).
 
-use std::collections::HashMap;``
+use std::collections::HashMap;
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 enum Progress {
